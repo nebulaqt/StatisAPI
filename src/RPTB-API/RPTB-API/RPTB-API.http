@@ -1,6 +1,6 @@
 @RPTB_API_HostAddress = http://localhost:5243
-
-GET {{RPTB_API_HostAddress}}/Domain/Check
+@CheckEndpoint = /Domain/Check
+GET {{RPTB_API_HostAddress}}{{CheckEndpoint}}
 Accept: application/json
 
 ###
