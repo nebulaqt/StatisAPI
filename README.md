@@ -13,14 +13,6 @@ This is a lightweight web application developed with C# and .NET, designed to pr
 2. **Receive Status:** Instantly receive feedback indicating whether the domain is online or offline.
 3. **Error Handling:** The application ensures robustness by handling various exceptions and providing clear error messages when necessary.
 
-## API Reference
-```http
-@RPTB_API_HostAddress = http://localhost:5243
-@CheckEndpoint = /Domain/Check
-GET {{RPTB_API_HostAddress}}{{CheckEndpoint}}
-Accept: application/json
-```
-
 ## Installation
 1. Clone the repository to your local machine.
 2. Ensure you have the latest version of .NET SDK installed.
