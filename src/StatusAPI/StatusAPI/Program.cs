@@ -14,7 +14,7 @@ if (app.Environment.IsDevelopment())
 app.MapGet("/domainstatus/{domain}", async (string domain) => await CheckIfDomainOnline(domain))
    .WithName("GetDomainStatus")
    .WithOpenApi();
-    
+
 await app.RunAsync();
 return;
 
